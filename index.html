@@ -38,4 +38,13 @@
       </div>
     </div>
   </body>
+  <script>
+   //make it do something when you do something to the top text "My ID is 'main'!"
+   const main = document.getElementById('main');
+   main.addEventListener('click', function(event) {
+     alert('I was clicked!');
+   });
+   main.addEventListener('dblclick', function(event) {
+     alert('I was double-clicked!');
+   });
 </html>
